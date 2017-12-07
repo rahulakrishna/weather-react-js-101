@@ -1,0 +1,30 @@
+.high::after{
+  content:' °';
+}
+
+.low::after{
+  content:' °';
+}
+
+.high{
+  font-weight: bold;
+  font-size:24px;
+}
+
+
+.low{
+  font-weight: bold;
+  font-size:24px;
+}
+
+.forecast{
+  padding:50px;
+  margin:'10px';
+  background-size: cover;
+}
+
+.text-content{
+  background:rgba(0,0,0,0.6);
+  color:#fff;
+  padding: 50px;
+}
